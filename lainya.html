@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catalog Mobil Donasi - Aroma RP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0e0e0e;
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+    .catalog {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .item {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .item:hover {
+      transform: translateY(-5px);
+    }
+    .item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .item h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .item p {
+      font-size: 1rem;
+      color: #f7f7f7;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      background-color: #4e00c2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catalog Mobil Donasi</h1>
+    <p>Pilih mobil favoritmu dan lakukan pembayaran langsung ke admin Aroma RP.</p>
+  </header>
+
+  <section class="catalog">
+    <div class="item">
+      <img src="aa.png" alt="Mobil Donasi 1">
+      <h2>DONASI PED</h2>
+      <p>Rp 700.000</p>
+      <p>BELUM TERMASUK BULANAN</p>
+      <p>Biaya Maintenance : Rp. 150.000 /Bulan
+Tambahan YDD/YTD  : Rp. 100.000 2 Item</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.imgur.com/3FSmitg.jpg" alt="Mobil Donasi 2">
+      <h2>CUSTOM PLAT</h2>
+      <p>1 HURUF = Rp 1.000.000</p>
+      <p>2 HURUF = Rp 800.000</p>
+      <p>3 HURUF = Rp 600.000</p>
+      <p>4 HURUF = Rp 400.000</p>
+      <p>5 HURUF = Rp 200.000</p>
+      <p>6 HURUF = Rp 100.000</p>
+    </div>
+
+    <div class="item">
+      <img src="https://i.imgur.com/3FSmitg.jpg" alt="Mobil Donasi 2">
+      <h2>CUSTOM NO HP</h2>
+      <p>1 DIGIT = Rp 1.000.000</p>
+      <p>2 DIGIT = Rp 800.000</p>
+      <p>3 DIGIT = Rp 600.000</p>
+      <p>4 DIGIT = Rp 400.000</p>
+      <p>5 DIGIT = Rp 200.000</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Aroma Roleplay. Semua hak dilindungi.
+  </footer>
+</body>
+</html>

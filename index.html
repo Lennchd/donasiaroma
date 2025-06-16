@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aroma Roleplay</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #230069, #0f001f);
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    header img.logo {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      background-color: #350162;
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 12px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    section {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .card {
+      background-color: #1b004e;
+      padding: 2rem;
+      border-radius: 20px;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(43, 0, 255, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      color: #91ff00;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .card ul {
+      text-align: left;
+      color: #ccc;
+      margin-bottom: 1.5rem;
+    }
+    .card li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .payment-info {
+      background-color: #1b004e;
+      margin: 3rem auto;
+      padding: 2rem;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    .payment-info h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+    .payment-info p, .payment-info a {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+    .payment-info a {
+      color: #00ccff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="aroma.png" class="logo">
+    <h1>AROMA ROLEPLAY</h1>
+    <p>Bergabunglah dengan Komunitas RP.</p>
+    <button class="btn" onclick="window.location.href='https://discord.gg/aromaroleplay'">Join Discord</button>
+  </header>
+
+  <section>
+    <h2 style="font-size: 2rem; font-weight: bold;">PAKET DONASI AROMA ROLEPLAY</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>MOTOR DONASI</h3>
+        <p>Rp150.000</p>
+        <ul>
+          <li>FREE RATA KANAN</li>
+        </ul>
+        <button class="btn" onclick="window.location.href='motor.html'">Beli Sekarang</button>
+      </div>
+
+      <div class="card">
+        <h3>DONASI MOBIL</h3>
+        <p>Rp300.000</p>
+        <ul>
+          <li>FREE RATA KANAN</li>
+        </ul>
+        <button class="btn" onclick="window.location.href='mobil.html'">Beli Sekarang</button>
+      </div>
+
+      <div class="card">
+        <h3>DONASI MOBIL LIMITED</h3>
+        <p>Rp500.000</p>
+        <ul>
+          <li>FREE RATA KANAN</li>
+        </ul>
+        <button class="btn" onclick="window.location.href='limited.html'">Beli Sekarang</button>
+      </div>
+
+      <div class="card">
+        <h3>DONASI LAINYA</h3>
+        <p>Rp.xxx.xxx</p>
+        <ul>
+          <li>DONASI PED</li>
+          <li>DONASI CUSTOM PLATE</li>
+        </ul>
+        <button class="btn" onclick="window.location.href='lainya.html'">Beli Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="payment-info">
+    <h2>Metode Pembayaran</h2>
+    <p><strong>Dana:</strong> 089688399993 A.S MOH RIZALUL FIKRI</p>
+    <p><strong>QRIS:</strong> <a href="https://imgdrop.io/image/sOwIH" target="_blank">Klik untuk Lihat QRIS</a></p>
+    <p><strong>Bank JAGO:</strong> 105747950728 A.S CHEREN D</p>
+    <p><strong>Bank BCA:</strong> 3151288497 A.S MOH RIZALUL FIKRI</p>
+    <button class="btn" onclick="window.location.href='pembayaran.html'">SILAKAN CLICK UNTUK MENGIRIM BUKTI TF</button>
+  </section>
+
+  <footer>
+    © 2025 Aroma Roleplay. All rights reserved.
+  </footer>
+</body>
+</html>
